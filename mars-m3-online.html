@@ -156,7 +156,7 @@
                 
                         if (--timer < 0) {
                             timer = duration;
-                            location.replace('https://gyudon64.github.io/Finedraft/mars-m3-lobby-online.php?page=lose');
+                            location.replace('https://gyudon64.github.io/Finedraft/mars-m3-lose.html');
                         }
                     }, 1000);
                 }
@@ -168,7 +168,7 @@
                 };
 
                 crystal.addEventListener('fusing', function(evt) {
-                    location.replace('https://gyudon64.github.io/Finedraft/mars-m3-lobby-online.php?page=win');
+                    location.replace('https://gyudon64.github.io/Finedraft/mars-m3-win.html');
                 });
             </script>
 
@@ -596,7 +596,7 @@
                 document.getElementById('off').style.display = 'none';
             }
             if (e.key == 't') {
-                location.replace('https://gyudon64.github.io/Finedraft/mars-m3-lobby-online.php?page=win');
+                location.replace('https://gyudon64.github.io/Finedraft/mars-m3-win.html');
             }
         // document.querySelector('p').innerHTML = `You pressed ${e.key}`;
         }, false);
