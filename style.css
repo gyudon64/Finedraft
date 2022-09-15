@@ -301,6 +301,12 @@ section {
     height: 100%;
 }
 
+#logo-corner {
+    position: absolute;
+    object-fit: cover;
+    height 100%;
+}
+
 .grad-ovl-lose {
     position: absolute;
     width: 100%;
