@@ -296,7 +296,8 @@ section {
 
 #bg {
     position: absolute;
-    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .grad-ovl-lose {
